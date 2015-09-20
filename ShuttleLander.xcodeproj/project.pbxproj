@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4BE22471BAEBD3A002722DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BE22461BAEBD3A002722DF /* main.m */; };
+		C4BE224A1BAEBD3A002722DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BE22491BAEBD3A002722DF /* AppDelegate.m */; };
+		C4BE224D1BAEBD3A002722DF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BE224C1BAEBD3A002722DF /* GameScene.m */; };
+		C4BE224F1BAEBD3A002722DF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C4BE224E1BAEBD3A002722DF /* GameScene.sks */; };
+		C4BE22521BAEBD3A002722DF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BE22511BAEBD3A002722DF /* GameViewController.m */; };
+		C4BE22551BAEBD3A002722DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BE22531BAEBD3A002722DF /* Main.storyboard */; };
+		C4BE22571BAEBD3A002722DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BE22561BAEBD3A002722DF /* Images.xcassets */; };
+		C4BE225A1BAEBD3A002722DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BE22581BAEBD3A002722DF /* LaunchScreen.xib */; };
+		C4BE22661BAEBD3A002722DF /* ShuttleLanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BE22651BAEBD3A002722DF /* ShuttleLanderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4BE22601BAEBD3A002722DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4BE22391BAEBD3A002722DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4BE22401BAEBD3A002722DF;
+			remoteInfo = ShuttleLander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4BE22411BAEBD3A002722DF /* ShuttleLander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuttleLander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BE22451BAEBD3A002722DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BE22461BAEBD3A002722DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4BE22481BAEBD3A002722DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4BE22491BAEBD3A002722DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4BE224B1BAEBD3A002722DF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C4BE224C1BAEBD3A002722DF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		C4BE224E1BAEBD3A002722DF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C4BE22501BAEBD3A002722DF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C4BE22511BAEBD3A002722DF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C4BE22541BAEBD3A002722DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4BE22561BAEBD3A002722DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4BE22591BAEBD3A002722DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C4BE225F1BAEBD3A002722DF /* ShuttleLanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuttleLanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BE22641BAEBD3A002722DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BE22651BAEBD3A002722DF /* ShuttleLanderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuttleLanderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4BE223E1BAEBD3A002722DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE225C1BAEBD3A002722DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4BE22381BAEBD3A002722DF = {
+			isa = PBXGroup;
+			children = (
+				C4BE22431BAEBD3A002722DF /* ShuttleLander */,
+				C4BE22621BAEBD3A002722DF /* ShuttleLanderTests */,
+				C4BE22421BAEBD3A002722DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4BE22421BAEBD3A002722DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE22411BAEBD3A002722DF /* ShuttleLander.app */,
+				C4BE225F1BAEBD3A002722DF /* ShuttleLanderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4BE22431BAEBD3A002722DF /* ShuttleLander */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE22481BAEBD3A002722DF /* AppDelegate.h */,
+				C4BE22491BAEBD3A002722DF /* AppDelegate.m */,
+				C4BE224B1BAEBD3A002722DF /* GameScene.h */,
+				C4BE224C1BAEBD3A002722DF /* GameScene.m */,
+				C4BE224E1BAEBD3A002722DF /* GameScene.sks */,
+				C4BE22501BAEBD3A002722DF /* GameViewController.h */,
+				C4BE22511BAEBD3A002722DF /* GameViewController.m */,
+				C4BE22531BAEBD3A002722DF /* Main.storyboard */,
+				C4BE22561BAEBD3A002722DF /* Images.xcassets */,
+				C4BE22581BAEBD3A002722DF /* LaunchScreen.xib */,
+				C4BE22441BAEBD3A002722DF /* Supporting Files */,
+			);
+			path = ShuttleLander;
+			sourceTree = "<group>";
+		};
+		C4BE22441BAEBD3A002722DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE22451BAEBD3A002722DF /* Info.plist */,
+				C4BE22461BAEBD3A002722DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4BE22621BAEBD3A002722DF /* ShuttleLanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE22651BAEBD3A002722DF /* ShuttleLanderTests.m */,
+				C4BE22631BAEBD3A002722DF /* Supporting Files */,
+			);
+			path = ShuttleLanderTests;
+			sourceTree = "<group>";
+		};
+		C4BE22631BAEBD3A002722DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4BE22641BAEBD3A002722DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4BE22401BAEBD3A002722DF /* ShuttleLander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BE22691BAEBD3A002722DF /* Build configuration list for PBXNativeTarget "ShuttleLander" */;
+			buildPhases = (
+				C4BE223D1BAEBD3A002722DF /* Sources */,
+				C4BE223E1BAEBD3A002722DF /* Frameworks */,
+				C4BE223F1BAEBD3A002722DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuttleLander;
+			productName = ShuttleLander;
+			productReference = C4BE22411BAEBD3A002722DF /* ShuttleLander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4BE225E1BAEBD3A002722DF /* ShuttleLanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BE226C1BAEBD3A002722DF /* Build configuration list for PBXNativeTarget "ShuttleLanderTests" */;
+			buildPhases = (
+				C4BE225B1BAEBD3A002722DF /* Sources */,
+				C4BE225C1BAEBD3A002722DF /* Frameworks */,
+				C4BE225D1BAEBD3A002722DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BE22611BAEBD3A002722DF /* PBXTargetDependency */,
+			);
+			name = ShuttleLanderTests;
+			productName = ShuttleLanderTests;
+			productReference = C4BE225F1BAEBD3A002722DF /* ShuttleLanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4BE22391BAEBD3A002722DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ltst;
+				TargetAttributes = {
+					C4BE22401BAEBD3A002722DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C4BE225E1BAEBD3A002722DF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C4BE22401BAEBD3A002722DF;
+					};
+				};
+			};
+			buildConfigurationList = C4BE223C1BAEBD3A002722DF /* Build configuration list for PBXProject "ShuttleLander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4BE22381BAEBD3A002722DF;
+			productRefGroup = C4BE22421BAEBD3A002722DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4BE22401BAEBD3A002722DF /* ShuttleLander */,
+				C4BE225E1BAEBD3A002722DF /* ShuttleLanderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4BE223F1BAEBD3A002722DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BE225A1BAEBD3A002722DF /* LaunchScreen.xib in Resources */,
+				C4BE22571BAEBD3A002722DF /* Images.xcassets in Resources */,
+				C4BE224F1BAEBD3A002722DF /* GameScene.sks in Resources */,
+				C4BE22551BAEBD3A002722DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE225D1BAEBD3A002722DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4BE223D1BAEBD3A002722DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BE22521BAEBD3A002722DF /* GameViewController.m in Sources */,
+				C4BE224A1BAEBD3A002722DF /* AppDelegate.m in Sources */,
+				C4BE224D1BAEBD3A002722DF /* GameScene.m in Sources */,
+				C4BE22471BAEBD3A002722DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE225B1BAEBD3A002722DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BE22661BAEBD3A002722DF /* ShuttleLanderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4BE22611BAEBD3A002722DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4BE22401BAEBD3A002722DF /* ShuttleLander */;
+			targetProxy = C4BE22601BAEBD3A002722DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4BE22531BAEBD3A002722DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BE22541BAEBD3A002722DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4BE22581BAEBD3A002722DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4BE22591BAEBD3A002722DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4BE22671BAEBD3A002722DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4BE22681BAEBD3A002722DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4BE226A1BAEBD3A002722DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShuttleLander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4BE226B1BAEBD3A002722DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShuttleLander/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4BE226D1BAEBD3A002722DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShuttleLanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuttleLander.app/ShuttleLander";
+			};
+			name = Debug;
+		};
+		C4BE226E1BAEBD3A002722DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShuttleLanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuttleLander.app/ShuttleLander";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4BE223C1BAEBD3A002722DF /* Build configuration list for PBXProject "ShuttleLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BE22671BAEBD3A002722DF /* Debug */,
+				C4BE22681BAEBD3A002722DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BE22691BAEBD3A002722DF /* Build configuration list for PBXNativeTarget "ShuttleLander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BE226A1BAEBD3A002722DF /* Debug */,
+				C4BE226B1BAEBD3A002722DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4BE226C1BAEBD3A002722DF /* Build configuration list for PBXNativeTarget "ShuttleLanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BE226D1BAEBD3A002722DF /* Debug */,
+				C4BE226E1BAEBD3A002722DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4BE22391BAEBD3A002722DF /* Project object */;
+}
